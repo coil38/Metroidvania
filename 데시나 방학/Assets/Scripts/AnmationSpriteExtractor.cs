@@ -62,14 +62,15 @@ public class AnmationSpriteExtractor : EditorWindow
             {
                 var Keyframes = AnimationUtility.GetObjectReferenceCurve(clip, binding);
 
-                foreach(var keyframe in Keyframes)
+                /*foreach(var keyframe in Keyframes)
                 {
                     Sprite spriite = keyframe.value as Sprite;          //키프레임 값을 스프라이드로 캐스팅
                     if(spriite != null)
                     {
                         spriteInfoList.Add(new SpriteInfo { time = keyframe.time, spriteName = sprite.name });          //스프라이트 정보를 리스트에 추가
                     }
-                }
+                }*/
+                //위에꺼 오류떠서 그냥 주석 처리함.
             }
         }
     }
